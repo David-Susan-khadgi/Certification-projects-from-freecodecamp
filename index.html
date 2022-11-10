@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<h1 id="title"> Simple Form project</h1>
+<p id="description">Thank you for filling this form</p>
+<form action="" id="survey-form">
+<label for="name" id="name-label" >NAME<br><input type="text" required placeholder="Enter your name" id="name"></label>
+<label for="email" id="email-label"><br>E-mail<br><input type="email" id="email" placeholder="Enter your E-mail"required></label><br>
+<label for="number" id="number-label">AGE<br><input type="number" id="number" min="0" max="100" placeholder="Enter your Age"></label><br>
+<label for="counting-happines" id="happiness-label">How happy are you today 0 being sad and 10 being very happy?<br>
+<select name="happiness-couting" id="dropdown">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+
+    <option value="3">3</option>
+
+    <option value="4">4</option>
+
+    <option value="5">5</option>
+
+    <option value="6">6</option>
+
+    <option value="7">7</option>
+
+    <option value="8">8</option>
+
+    <option value="9">9</option>
+
+    <option value="10">10</option>
+
+
+</select>
+</label><br>
+<label for="priorities1-label"><input type="radio" name="priorities" value="Happiness">Happiness</label>
+<label for="priorities2-label"><input type="radio" name="priorities" value="Money">Money</label>
+<label for="priorities3-label"><input type="radio" name="priorities" value="Health">Health</label>
+<div>
+<p>What would you like to acheive in life?</p>
+<label for="checkbox"><input type="checkbox" value="money">More Money</label><br>
+<label for="checkbox"><input type="checkbox" value="happiness">More Happiness</label><br>
+<label for="checkbox"><input type="checkbox" value="health">More Health</label><br>
+
+</div>
+<div>
+    <p>Any Deep thoughts you would like to share about life in General?</p>
+    <textarea name="suggestion" id="feedback" cols="30" rows="5"></textarea>
+</div>
+<button id='submit' class="subimt" type="submit">Submit</button>
+</form>
+</html>
